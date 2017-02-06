@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-
+import { View } from 'react-native';
+import { Header } from './components/common';
 
 class App extends Component {
   render() {
-    return(
+    return (
       <View>
-        <Text>Test</Text>
+        <Header headerText="Authentication" />
       </View>
     );
   }
